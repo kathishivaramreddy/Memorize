@@ -9,88 +9,98 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let emojis = ["🦖","🐙","🐥","🐻", "🐣","🦅","🐌","🦋","🐗","🙉","🐽","🪿","🦉","🐜","🐏"]
-    @State private var cardCount = 4
+    let themes = ["Vehicle", "Animals", "Food"]
+    let themeImages = ["Vehicle" : "car", "Animals" : "cat", "Food" : "carrot"]
+    let themeEmojis = ["Vehicle" : ["🚗", "🚕", "🚜", "🚝"],
+                       "Animals" : ["🦖", "🐙", "🐥", "🐻", "🐣", "🦅", "🐌", "🦋", "🐗", "🙉", "🐽", "🪿", "🦉", "🐜", "🐏"],
+                       "Food" : ["🍏", "🍎", "🍐", "🍋"]]
+    
+    @State private var emojisArray = [String]()
     
     var body: some View {
         
-        VStack {
-            ScrollView {
-                cards
+        NavigationStack {
+            TabView {
+                ForEach(themes, id: \.self) { theme in
+                    VStack {
+                        ScrollView {
+                            cards(emojis: emojisArray)
+                        }
+                    }
+                    .tabItem {
+                        Label(
+                            title: { Text(theme) },
+                            icon: { Image(systemName: themeImages[theme] ?? "car") }
+                        )
+                    }
+                    .onAppear {
+                        setUpThemeCards(theme: theme)
+                    }
+                }
             }
-            
-              
-            Spacer()
-            
-            HStack {
-                cardCountAdjuster(by: -1, text: "Remove Card")
-                Spacer()
-                cardCountAdjuster(by: 1, text: "Add Card")
-            }
-            
-            
-            
+            .navigationTitle("Memorize!")
         }
     }
     
+    func setUpThemeCards(theme: String) {
+        let themeEmojis = self.themeEmojis[theme] ?? []
+        
+        // Ensure there are at least 4 pairs
+        let pairsCount = max(4, themeEmojis.count / 2)
+        var emojis: [String] = []
+        
+        // Add pairs of emojis
+        for i in 0..<pairsCount {
+            emojis.append(themeEmojis[i % themeEmojis.count])
+            emojis.append(themeEmojis[i % themeEmojis.count])
+        }
+        
+        // Shuffle the emojis for randomness
+        emojis.shuffle()
+        emojisArray = emojis
+    }
     
-    var cards: some View {
-        HStack {
+    func cards(emojis: [String]) -> some View {
+        return HStack {
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 120))]) {
-                
-                ForEach(0..<cardCount, id: \.self) { index in
-                    CardView(content: emojis[index])
+                ForEach(emojis, id: \.self) { emoji in
+                    CardView(content: emoji)
                         .aspectRatio( 2/3, contentMode: .fit)
-                    
                 }
             }
         }
         .foregroundColor(.orange)
         .padding()
     }
-    
-    func cardCountAdjuster(by offSet: Int, text: String) -> some View {
-        Button(action: {
-            cardCount += offSet
-        }, label: {
-            Text(text)
-        })
-        .frame(maxHeight: 40)
-        .background(.orange)
-        .cornerRadius(5)
-        .disabled(cardCount + offSet < 1 || cardCount + offSet > emojis.count)
-        
-    }
 }
-
-#Preview {
-    ContentView()
-}
-
 
 struct CardView: View {
     
     let content: String
-    @State  var isFaceUp: Bool = true
+    @State private var isFaceUp: Bool = true
     
     var body: some View {
         ZStack {
             let base = RoundedRectangle(cornerRadius: 12)
-           
+            
             Group {
                 base
                     .foregroundColor(.white)
                 base
                     .strokeBorder(lineWidth: 2)
                 Text(content)
-            }.opacity(isFaceUp ? 1 : 0)
-            base.fill().opacity(isFaceUp ? 0 : 1)
-        
+            }
+            .opacity(isFaceUp ? 1 : 0)
             
-        }.onTapGesture {
+            base.fill().opacity(isFaceUp ? 0 : 1)
+            
+        }
+        .onTapGesture {
             isFaceUp.toggle()
         }
-        
     }
-    
+}
+
+#Preview {
+    ContentView()
 }
