@@ -7,63 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F54921A92C59550800BF6DE4 /* SwiftUI_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54921A82C59550800BF6DE4 /* SwiftUI_WeatherApp.swift */; };
-		F54921AB2C59550800BF6DE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54921AA2C59550800BF6DE4 /* ContentView.swift */; };
-		F54921AD2C59550A00BF6DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54921AC2C59550A00BF6DE4 /* Assets.xcassets */; };
-		F54921B02C59550A00BF6DE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54921AF2C59550A00BF6DE4 /* Preview Assets.xcassets */; };
-		F54921BA2C59550A00BF6DE4 /* SwiftUI_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54921B92C59550A00BF6DE4 /* SwiftUI_WeatherTests.swift */; };
-		F54921C42C59550A00BF6DE4 /* SwiftUI_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54921C32C59550A00BF6DE4 /* SwiftUI_WeatherUITests.swift */; };
-		F54921C62C59550A00BF6DE4 /* SwiftUI_WeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54921C52C59550A00BF6DE4 /* SwiftUI_WeatherUITestsLaunchTests.swift */; };
-		F54921D32C67E21600BF6DE4 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54921D22C67E21600BF6DE4 /* WeatherButton.swift */; };
+		F5CA01FC2CE42D7D00880F02 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA01FB2CE42D7D00880F02 /* LandmarksApp.swift */; };
+		F5CA01FE2CE42D7D00880F02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA01FD2CE42D7D00880F02 /* ContentView.swift */; };
+		F5CA02002CE42D7F00880F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CA01FF2CE42D7F00880F02 /* Assets.xcassets */; };
+		F5CA02032CE42D7F00880F02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CA02022CE42D7F00880F02 /* Preview Assets.xcassets */; };
+		F5CA020D2CE42D7F00880F02 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA020C2CE42D7F00880F02 /* LandmarksTests.swift */; };
+		F5CA02172CE42D7F00880F02 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA02162CE42D7F00880F02 /* LandmarksUITests.swift */; };
+		F5CA02192CE42D7F00880F02 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA02182CE42D7F00880F02 /* LandmarksUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F54921B62C59550A00BF6DE4 /* PBXContainerItemProxy */ = {
+		F5CA02092CE42D7F00880F02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F549219D2C59550800BF6DE4 /* Project object */;
+			containerPortal = F5CA01F02CE42D7D00880F02 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F54921A42C59550800BF6DE4;
-			remoteInfo = "SwiftUI-Weather";
+			remoteGlobalIDString = F5CA01F72CE42D7D00880F02;
+			remoteInfo = Landmarks;
 		};
-		F54921C02C59550A00BF6DE4 /* PBXContainerItemProxy */ = {
+		F5CA02132CE42D7F00880F02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F549219D2C59550800BF6DE4 /* Project object */;
+			containerPortal = F5CA01F02CE42D7D00880F02 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F54921A42C59550800BF6DE4;
-			remoteInfo = "SwiftUI-Weather";
+			remoteGlobalIDString = F5CA01F72CE42D7D00880F02;
+			remoteInfo = Landmarks;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F54921A52C59550800BF6DE4 /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F54921A82C59550800BF6DE4 /* SwiftUI_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherApp.swift; sourceTree = "<group>"; };
-		F54921AA2C59550800BF6DE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F54921AC2C59550A00BF6DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F54921AF2C59550A00BF6DE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F54921B52C59550A00BF6DE4 /* SwiftUI-WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F54921B92C59550A00BF6DE4 /* SwiftUI_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherTests.swift; sourceTree = "<group>"; };
-		F54921BF2C59550A00BF6DE4 /* SwiftUI-WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F54921C32C59550A00BF6DE4 /* SwiftUI_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherUITests.swift; sourceTree = "<group>"; };
-		F54921C52C59550A00BF6DE4 /* SwiftUI_WeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F54921D22C67E21600BF6DE4 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		F5CA01F82CE42D7D00880F02 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CA01FB2CE42D7D00880F02 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
+		F5CA01FD2CE42D7D00880F02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5CA01FF2CE42D7F00880F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5CA02022CE42D7F00880F02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5CA02082CE42D7F00880F02 /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CA020C2CE42D7F00880F02 /* LandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksTests.swift; sourceTree = "<group>"; };
+		F5CA02122CE42D7F00880F02 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CA02162CE42D7F00880F02 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
+		F5CA02182CE42D7F00880F02 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F54921A22C59550800BF6DE4 /* Frameworks */ = {
+		F5CA01F52CE42D7D00880F02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F54921B22C59550A00BF6DE4 /* Frameworks */ = {
+		F5CA02052CE42D7F00880F02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F54921BC2C59550A00BF6DE4 /* Frameworks */ = {
+		F5CA020F2CE42D7F00880F02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,143 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F549219C2C59550800BF6DE4 = {
+		F5CA01EF2CE42D7D00880F02 = {
 			isa = PBXGroup;
 			children = (
-				F54921A72C59550800BF6DE4 /* SwiftUI-Weather */,
-				F54921B82C59550A00BF6DE4 /* SwiftUI-WeatherTests */,
-				F54921C22C59550A00BF6DE4 /* SwiftUI-WeatherUITests */,
-				F54921A62C59550800BF6DE4 /* Products */,
+				F5CA01FA2CE42D7D00880F02 /* Landmarks */,
+				F5CA020B2CE42D7F00880F02 /* LandmarksTests */,
+				F5CA02152CE42D7F00880F02 /* LandmarksUITests */,
+				F5CA01F92CE42D7D00880F02 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F54921A62C59550800BF6DE4 /* Products */ = {
+		F5CA01F92CE42D7D00880F02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F54921A52C59550800BF6DE4 /* SwiftUI-Weather.app */,
-				F54921B52C59550A00BF6DE4 /* SwiftUI-WeatherTests.xctest */,
-				F54921BF2C59550A00BF6DE4 /* SwiftUI-WeatherUITests.xctest */,
+				F5CA01F82CE42D7D00880F02 /* Landmarks.app */,
+				F5CA02082CE42D7F00880F02 /* LandmarksTests.xctest */,
+				F5CA02122CE42D7F00880F02 /* LandmarksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F54921A72C59550800BF6DE4 /* SwiftUI-Weather */ = {
+		F5CA01FA2CE42D7D00880F02 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				F54921A82C59550800BF6DE4 /* SwiftUI_WeatherApp.swift */,
-				F54921AA2C59550800BF6DE4 /* ContentView.swift */,
-				F54921AC2C59550A00BF6DE4 /* Assets.xcassets */,
-				F54921AE2C59550A00BF6DE4 /* Preview Content */,
-				F54921D22C67E21600BF6DE4 /* WeatherButton.swift */,
+				F5CA01FB2CE42D7D00880F02 /* LandmarksApp.swift */,
+				F5CA01FD2CE42D7D00880F02 /* ContentView.swift */,
+				F5CA01FF2CE42D7F00880F02 /* Assets.xcassets */,
+				F5CA02012CE42D7F00880F02 /* Preview Content */,
 			);
-			path = "SwiftUI-Weather";
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
-		F54921AE2C59550A00BF6DE4 /* Preview Content */ = {
+		F5CA02012CE42D7F00880F02 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F54921AF2C59550A00BF6DE4 /* Preview Assets.xcassets */,
+				F5CA02022CE42D7F00880F02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F54921B82C59550A00BF6DE4 /* SwiftUI-WeatherTests */ = {
+		F5CA020B2CE42D7F00880F02 /* LandmarksTests */ = {
 			isa = PBXGroup;
 			children = (
-				F54921B92C59550A00BF6DE4 /* SwiftUI_WeatherTests.swift */,
+				F5CA020C2CE42D7F00880F02 /* LandmarksTests.swift */,
 			);
-			path = "SwiftUI-WeatherTests";
+			path = LandmarksTests;
 			sourceTree = "<group>";
 		};
-		F54921C22C59550A00BF6DE4 /* SwiftUI-WeatherUITests */ = {
+		F5CA02152CE42D7F00880F02 /* LandmarksUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F54921C32C59550A00BF6DE4 /* SwiftUI_WeatherUITests.swift */,
-				F54921C52C59550A00BF6DE4 /* SwiftUI_WeatherUITestsLaunchTests.swift */,
+				F5CA02162CE42D7F00880F02 /* LandmarksUITests.swift */,
+				F5CA02182CE42D7F00880F02 /* LandmarksUITestsLaunchTests.swift */,
 			);
-			path = "SwiftUI-WeatherUITests";
+			path = LandmarksUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F54921A42C59550800BF6DE4 /* SwiftUI-Weather */ = {
+		F5CA01F72CE42D7D00880F02 /* Landmarks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F54921C92C59550A00BF6DE4 /* Build configuration list for PBXNativeTarget "SwiftUI-Weather" */;
+			buildConfigurationList = F5CA021C2CE42D7F00880F02 /* Build configuration list for PBXNativeTarget "Landmarks" */;
 			buildPhases = (
-				F54921A12C59550800BF6DE4 /* Sources */,
-				F54921A22C59550800BF6DE4 /* Frameworks */,
-				F54921A32C59550800BF6DE4 /* Resources */,
+				F5CA01F42CE42D7D00880F02 /* Sources */,
+				F5CA01F52CE42D7D00880F02 /* Frameworks */,
+				F5CA01F62CE42D7D00880F02 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SwiftUI-Weather";
-			productName = "SwiftUI-Weather";
-			productReference = F54921A52C59550800BF6DE4 /* SwiftUI-Weather.app */;
+			name = Landmarks;
+			productName = Landmarks;
+			productReference = F5CA01F82CE42D7D00880F02 /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F54921B42C59550A00BF6DE4 /* SwiftUI-WeatherTests */ = {
+		F5CA02072CE42D7F00880F02 /* LandmarksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F54921CC2C59550A00BF6DE4 /* Build configuration list for PBXNativeTarget "SwiftUI-WeatherTests" */;
+			buildConfigurationList = F5CA021F2CE42D7F00880F02 /* Build configuration list for PBXNativeTarget "LandmarksTests" */;
 			buildPhases = (
-				F54921B12C59550A00BF6DE4 /* Sources */,
-				F54921B22C59550A00BF6DE4 /* Frameworks */,
-				F54921B32C59550A00BF6DE4 /* Resources */,
+				F5CA02042CE42D7F00880F02 /* Sources */,
+				F5CA02052CE42D7F00880F02 /* Frameworks */,
+				F5CA02062CE42D7F00880F02 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F54921B72C59550A00BF6DE4 /* PBXTargetDependency */,
+				F5CA020A2CE42D7F00880F02 /* PBXTargetDependency */,
 			);
-			name = "SwiftUI-WeatherTests";
-			productName = "SwiftUI-WeatherTests";
-			productReference = F54921B52C59550A00BF6DE4 /* SwiftUI-WeatherTests.xctest */;
+			name = LandmarksTests;
+			productName = LandmarksTests;
+			productReference = F5CA02082CE42D7F00880F02 /* LandmarksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F54921BE2C59550A00BF6DE4 /* SwiftUI-WeatherUITests */ = {
+		F5CA02112CE42D7F00880F02 /* LandmarksUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F54921CF2C59550A00BF6DE4 /* Build configuration list for PBXNativeTarget "SwiftUI-WeatherUITests" */;
+			buildConfigurationList = F5CA02222CE42D7F00880F02 /* Build configuration list for PBXNativeTarget "LandmarksUITests" */;
 			buildPhases = (
-				F54921BB2C59550A00BF6DE4 /* Sources */,
-				F54921BC2C59550A00BF6DE4 /* Frameworks */,
-				F54921BD2C59550A00BF6DE4 /* Resources */,
+				F5CA020E2CE42D7F00880F02 /* Sources */,
+				F5CA020F2CE42D7F00880F02 /* Frameworks */,
+				F5CA02102CE42D7F00880F02 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F54921C12C59550A00BF6DE4 /* PBXTargetDependency */,
+				F5CA02142CE42D7F00880F02 /* PBXTargetDependency */,
 			);
-			name = "SwiftUI-WeatherUITests";
-			productName = "SwiftUI-WeatherUITests";
-			productReference = F54921BF2C59550A00BF6DE4 /* SwiftUI-WeatherUITests.xctest */;
+			name = LandmarksUITests;
+			productName = LandmarksUITests;
+			productReference = F5CA02122CE42D7F00880F02 /* LandmarksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F549219D2C59550800BF6DE4 /* Project object */ = {
+		F5CA01F02CE42D7D00880F02 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					F54921A42C59550800BF6DE4 = {
+					F5CA01F72CE42D7D00880F02 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					F54921B42C59550A00BF6DE4 = {
+					F5CA02072CE42D7F00880F02 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = F54921A42C59550800BF6DE4;
+						TestTargetID = F5CA01F72CE42D7D00880F02;
 					};
-					F54921BE2C59550A00BF6DE4 = {
+					F5CA02112CE42D7F00880F02 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = F54921A42C59550800BF6DE4;
+						TestTargetID = F5CA01F72CE42D7D00880F02;
 					};
 				};
 			};
-			buildConfigurationList = F54921A02C59550800BF6DE4 /* Build configuration list for PBXProject "SwiftUI-Weather" */;
+			buildConfigurationList = F5CA01F32CE42D7D00880F02 /* Build configuration list for PBXProject "Landmarks" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = F549219C2C59550800BF6DE4;
-			productRefGroup = F54921A62C59550800BF6DE4 /* Products */;
+			mainGroup = F5CA01EF2CE42D7D00880F02;
+			productRefGroup = F5CA01F92CE42D7D00880F02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F54921A42C59550800BF6DE4 /* SwiftUI-Weather */,
-				F54921B42C59550A00BF6DE4 /* SwiftUI-WeatherTests */,
-				F54921BE2C59550A00BF6DE4 /* SwiftUI-WeatherUITests */,
+				F5CA01F72CE42D7D00880F02 /* Landmarks */,
+				F5CA02072CE42D7F00880F02 /* LandmarksTests */,
+				F5CA02112CE42D7F00880F02 /* LandmarksUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F54921A32C59550800BF6DE4 /* Resources */ = {
+		F5CA01F62CE42D7D00880F02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54921B02C59550A00BF6DE4 /* Preview Assets.xcassets in Resources */,
-				F54921AD2C59550A00BF6DE4 /* Assets.xcassets in Resources */,
+				F5CA02032CE42D7F00880F02 /* Preview Assets.xcassets in Resources */,
+				F5CA02002CE42D7F00880F02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F54921B32C59550A00BF6DE4 /* Resources */ = {
+		F5CA02062CE42D7F00880F02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F54921BD2C59550A00BF6DE4 /* Resources */ = {
+		F5CA02102CE42D7F00880F02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,50 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F54921A12C59550800BF6DE4 /* Sources */ = {
+		F5CA01F42CE42D7D00880F02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54921AB2C59550800BF6DE4 /* ContentView.swift in Sources */,
-				F54921A92C59550800BF6DE4 /* SwiftUI_WeatherApp.swift in Sources */,
-				F54921D32C67E21600BF6DE4 /* WeatherButton.swift in Sources */,
+				F5CA01FE2CE42D7D00880F02 /* ContentView.swift in Sources */,
+				F5CA01FC2CE42D7D00880F02 /* LandmarksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F54921B12C59550A00BF6DE4 /* Sources */ = {
+		F5CA02042CE42D7F00880F02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54921BA2C59550A00BF6DE4 /* SwiftUI_WeatherTests.swift in Sources */,
+				F5CA020D2CE42D7F00880F02 /* LandmarksTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F54921BB2C59550A00BF6DE4 /* Sources */ = {
+		F5CA020E2CE42D7F00880F02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54921C42C59550A00BF6DE4 /* SwiftUI_WeatherUITests.swift in Sources */,
-				F54921C62C59550A00BF6DE4 /* SwiftUI_WeatherUITestsLaunchTests.swift in Sources */,
+				F5CA02192CE42D7F00880F02 /* LandmarksUITestsLaunchTests.swift in Sources */,
+				F5CA02172CE42D7F00880F02 /* LandmarksUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F54921B72C59550A00BF6DE4 /* PBXTargetDependency */ = {
+		F5CA020A2CE42D7F00880F02 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F54921A42C59550800BF6DE4 /* SwiftUI-Weather */;
-			targetProxy = F54921B62C59550A00BF6DE4 /* PBXContainerItemProxy */;
+			target = F5CA01F72CE42D7D00880F02 /* Landmarks */;
+			targetProxy = F5CA02092CE42D7F00880F02 /* PBXContainerItemProxy */;
 		};
-		F54921C12C59550A00BF6DE4 /* PBXTargetDependency */ = {
+		F5CA02142CE42D7F00880F02 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F54921A42C59550800BF6DE4 /* SwiftUI-Weather */;
-			targetProxy = F54921C02C59550A00BF6DE4 /* PBXContainerItemProxy */;
+			target = F5CA01F72CE42D7D00880F02 /* Landmarks */;
+			targetProxy = F5CA02132CE42D7F00880F02 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F54921C72C59550A00BF6DE4 /* Debug */ = {
+		F5CA021A2CE42D7F00880F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -362,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		F54921C82C59550A00BF6DE4 /* Release */ = {
+		F5CA021B2CE42D7F00880F02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,14 +414,14 @@
 			};
 			name = Release;
 		};
-		F54921CA2C59550A00BF6DE4 /* Debug */ = {
+		F5CA021D2CE42D7F00880F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Weather/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = 255529GUNH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -439,7 +435,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "e.SwiftUI-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -447,14 +443,14 @@
 			};
 			name = Debug;
 		};
-		F54921CB2C59550A00BF6DE4 /* Release */ = {
+		F5CA021E2CE42D7F00880F02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Weather/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = 255529GUNH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -468,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "e.SwiftUI-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -476,7 +472,7 @@
 			};
 			name = Release;
 		};
-		F54921CD2C59550A00BF6DE4 /* Debug */ = {
+		F5CA02202CE42D7F00880F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -487,16 +483,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "e.SwiftUI-WeatherTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.LandmarksTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-Weather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI-Weather";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmarks";
 			};
 			name = Debug;
 		};
-		F54921CE2C59550A00BF6DE4 /* Release */ = {
+		F5CA02212CE42D7F00880F02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -507,16 +503,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "e.SwiftUI-WeatherTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.LandmarksTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-Weather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI-Weather";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Landmarks";
 			};
 			name = Release;
 		};
-		F54921D02C59550A00BF6DE4 /* Debug */ = {
+		F5CA02232CE42D7F00880F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,16 +521,16 @@
 				DEVELOPMENT_TEAM = 255529GUNH;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "e.SwiftUI-WeatherUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.LandmarksUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SwiftUI-Weather";
+				TEST_TARGET_NAME = Landmarks;
 			};
 			name = Debug;
 		};
-		F54921D12C59550A00BF6DE4 /* Release */ = {
+		F5CA02242CE42D7F00880F02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -543,55 +539,55 @@
 				DEVELOPMENT_TEAM = 255529GUNH;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "e.SwiftUI-WeatherUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.LandmarksUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SwiftUI-Weather";
+				TEST_TARGET_NAME = Landmarks;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F54921A02C59550800BF6DE4 /* Build configuration list for PBXProject "SwiftUI-Weather" */ = {
+		F5CA01F32CE42D7D00880F02 /* Build configuration list for PBXProject "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F54921C72C59550A00BF6DE4 /* Debug */,
-				F54921C82C59550A00BF6DE4 /* Release */,
+				F5CA021A2CE42D7F00880F02 /* Debug */,
+				F5CA021B2CE42D7F00880F02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F54921C92C59550A00BF6DE4 /* Build configuration list for PBXNativeTarget "SwiftUI-Weather" */ = {
+		F5CA021C2CE42D7F00880F02 /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F54921CA2C59550A00BF6DE4 /* Debug */,
-				F54921CB2C59550A00BF6DE4 /* Release */,
+				F5CA021D2CE42D7F00880F02 /* Debug */,
+				F5CA021E2CE42D7F00880F02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F54921CC2C59550A00BF6DE4 /* Build configuration list for PBXNativeTarget "SwiftUI-WeatherTests" */ = {
+		F5CA021F2CE42D7F00880F02 /* Build configuration list for PBXNativeTarget "LandmarksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F54921CD2C59550A00BF6DE4 /* Debug */,
-				F54921CE2C59550A00BF6DE4 /* Release */,
+				F5CA02202CE42D7F00880F02 /* Debug */,
+				F5CA02212CE42D7F00880F02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F54921CF2C59550A00BF6DE4 /* Build configuration list for PBXNativeTarget "SwiftUI-WeatherUITests" */ = {
+		F5CA02222CE42D7F00880F02 /* Build configuration list for PBXNativeTarget "LandmarksUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F54921D02C59550A00BF6DE4 /* Debug */,
-				F54921D12C59550A00BF6DE4 /* Release */,
+				F5CA02232CE42D7F00880F02 /* Debug */,
+				F5CA02242CE42D7F00880F02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F549219D2C59550800BF6DE4 /* Project object */;
+	rootObject = F5CA01F02CE42D7D00880F02 /* Project object */;
 }
